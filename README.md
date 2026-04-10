@@ -21,7 +21,7 @@ Personal collection of scripts for launching a DCS World sim setup on Linux. Sha
 These repos are required and their paths must be set correctly in the scripts:
 
 - [SimAppPro-on-Linux-input-transmitter](https://github.com/iskela45/SimAppPro-on-Linux-input-transmitter) — WinWing input forwarding from Windows VM to Linux uinput devices. Path configured via `WINWING_DIR` in `simstart.sh`.
-- [VPforce-TelemFFB](https://github.com/iskela45/VPforce-TelemFFB) — Force feedback telemetry for VPforce Rhino. Path hardcoded in `telemffb.sh`.
+- [VPforce-TelemFFB](https://github.com/iskela45/VPforce-TelemFFB) — Force feedback telemetry for VPforce Rhino, personal fork to make the software run on Linux. Path hardcoded in `telemffb.sh`.
 - [DCS-on-Linux](https://github.com/ChaosRifle/DCS-on-Linux) — DCS World launcher and tooling for Linux. Path hardcoded in `simstart.sh` and `dcs.sh`.
 
 ## Adapting for your own setup
